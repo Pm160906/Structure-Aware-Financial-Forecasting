@@ -138,22 +138,25 @@ allowing the model to express uncertainty rather than providing only point predi
 ```text
 Structure-Aware-Financial-Forecasting/
 │
-├── data/
-├── src/
-│   ├── preprocessing.py
+├── README.md
+│
+├── code/
+│   └── data/
+│   |   ├── btc_usd_binance_historical_data.csv
+│   |   ├── crude_oil_wti_futures_historical_data.csv
+│   |   ├── tata_consultancy_stock_price_history.csv
+│   |   └── usd_inr_historical_data.csv
+|   ├── preprocessing.py
 │   ├── feature_extraction.py
 │   ├── hankelization.py
 │   ├── model.py
 │   ├── train.py
 │   ├── eval.py
-│   └── monte_carlo.py
+│   ├── monte_carlo.py
 │
-├── models/
-├── figures/
-├── paper/
-├── presentation/
-├── requirements.txt
-└── README.md
+└── documentation/
+    ├── research_paper.pdf
+    └── presentation.pptx
 ```
 
 ---
